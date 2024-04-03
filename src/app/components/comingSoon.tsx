@@ -9,13 +9,13 @@ export default function ComingSoon() {
             <header className="w-full flex justify-start items-center h-20 px-6 bg-white">
                 <Image src="/logo.svg" alt="logo"
                     width={100} height={100} priority={true}
-                    className="" />
+                    className=" w-24 h-auto" />
             </header>
             <div className="w-full">
                 <Image src="/hero-mobile.jpg"
                     alt="logo" height={300} width={300}
                     priority={true}
-                    className="w-full mb-4"
+                    className="w-full h-auto mb-4"
                 />
                 {/* <Image src="/loading.svg" alt="logo" width={100} height={100} /> */}
             </div>

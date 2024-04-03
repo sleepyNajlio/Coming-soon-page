@@ -13,18 +13,26 @@ export default function EmailForm() {
     return (
         <>
             <form className="">
-                <fieldset className="flex  border border-soft-red/40 rounded-3xl w-80">
+                <fieldset className=" relative flex  border border-soft-red/40 rounded-3xl w-80">
                     <input
                         type="email"
                         placeholder="Email address"
-                        className=" object-contain w-full p-2 rounded-3xl flex-1 bg-transparent"
                         onInvalid={(Event) => handleWarning(Event)}
-                        autoComplete="email"
+                        className=" object-contain w-full py-3 px-5 text-sm rounded-3xl flex-1 bg-transparent text-desaturated-redß focus:outline-none placeholder:text-desaturated-red/40"
 
                     />
                     <motion.button
+                        whileTap={{
+                            scale: 1.4,
+                            transition: { duration: 0.1 },
+
+                        }}
+                        whileHover={{
+                            scale: 1.1,
+                            transition: { duration: 0.1 },
+                        }}
                         type="submit"
-                        className="z-10 float-right right-7 w-16 bg-soft-red text-white p-2 rounded-3xl"
+                        className="absolute right-0 top-0 h-full w-16 text-white p-1 bg-button hover:bg-soft-red shadow-inner antialiased rounded-3xl drop-shadow-2xl text-2xl"
                     >
                         &gt;
                     </motion.button>
