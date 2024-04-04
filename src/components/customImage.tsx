@@ -47,7 +47,7 @@ export default function CustomImage() {
                 <Image src={src} alt="Hero Image"
                     width={100} height={100} priority={true}
                     quality={100}
-                    className="object-cover object-center w-full h-auto sm:h-screen sm:w-auto"
+                    className="object-cover object-center h-full w-full sm:h-screen"
                 />
             )}
         </>
