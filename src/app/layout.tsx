@@ -22,8 +22,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={josefin.variable}>
-      <body className="bg-soft-red-gradiant h-screen">{children}</body>
+    <html lang="en" className={`${josefin.variable} bg-soft-red-gradiant bg-fixed h-screen`}>
+      <body className="">{children}</body>
     </html >
   );
 }

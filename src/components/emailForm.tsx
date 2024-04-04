@@ -46,8 +46,9 @@ export default function EmailForm() {
                         type="submit"
                         className="absolute right-0 top-0 h-full w-16 text-white p-1 bg-button hover:bg-soft-red shadow-inner antialiased rounded-3xl drop-shadow-2xl text-2xl cursor-pointer"
                     >
-                        &gt;
+                        <Image src="/icon-arrow.svg" alt="arrow" width={20} height={20} className="w-3 h-auto inline" />
                     </motion.button>
+
                 </fieldset>
                 <p id="error-msg" className="text-left my-1 ml-3 text-sm text-desaturated-red/70 hidden">Please provide a valid email</p>
             </form>

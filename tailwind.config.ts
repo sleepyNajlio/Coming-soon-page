@@ -14,6 +14,7 @@ const config: Config = {
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "soft-red-gradiant": "linear-gradient(180deg, #ffffff, #FFF4F4)",
         "gradient-linear-gray": "linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%))",
+        'pattern-desktop': "url('/bg-pattern-desktop.svg')",
       },
       colors: {
         transparent: "transparent",
@@ -24,7 +25,10 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['var(--font-josefin)'],
-      }
+      },
+      screens: {
+        'xs': '375px',
+      },
     },
   },
   plugins: [],
