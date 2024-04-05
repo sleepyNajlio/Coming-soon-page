@@ -15,6 +15,13 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 - <img width='25' height='25' src='https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png' alt='Tailwind CSS'/> [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
 
+### Useful resources
+
+- [TailWindCSS Grid](https://refine.dev/blog/tailwind-grid/) How to Use Tailwind CSS Grid.
+- [Video Tutorial](https://youtu.be/_r2qB44o_Fs?si=_BZu05SN3HsEDizG) Tailwind CSS Grid Tutorial.
+- [Detecting window resize](https://www.youtube.com/watch?v=AXQs8dr1VzY&t=372s) to conditionally render the Image based on the window size.
+- [How to use custom fonts](https://www.youtube.com/watch?v=L8_98i_bMMA&t=4s) Customize your fonts in NextJS And TailWind CSS
+
 
 
 
