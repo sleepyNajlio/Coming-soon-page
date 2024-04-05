@@ -46,7 +46,7 @@ export default function EmailForm() {
                         type="submit"
                         className="absolute right-0 top-0 h-full w-16 text-white p-1 bg-button hover:bg-soft-red shadow-inner antialiased rounded-3xl drop-shadow-2xl text-2xl cursor-pointer"
                     >
-                        <Image src="/icon-arrow.svg" alt="arrow" width={20} height={20} className="w-3 h-auto inline" />
+                        <Image src="/icon-arrow.svg" alt="arrow" width={20} height={20} className="h-4 w-auto inline" />
                     </motion.button>
 
                 </fieldset>
